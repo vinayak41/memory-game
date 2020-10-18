@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+* {
+  margin: 0rem;
+  padding: 0rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
+  background-color: rgb(94, 94, 94);
   min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  font-size: 2rem;
+  background-color: rgb(145, 255, 0);
+  padding-top: 0.6rem;
+  padding-bottom: 2.5rem;
+  text-shadow: 0.5rem 0.5rem 1.2rem rgb(104, 104, 104);
+}
+
+.score-board {
+  background-color: rgb(255, 143, 38);
+  font-family: 'Orbitron', sans-serif;
+  padding: 1rem;
+  border-radius: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 2.2rem;
+  border-left: 0.5rem solid rgb(155, 75, 0);
+  border-right: 0.5rem solid rgb(155, 75, 0);
+  box-shadow: 0.3rem 0.3rem 1.2rem rgba(0, 0, 0, 0.801);
 }
 
-.App-link {
-  color: #61dafb;
+.game-bord {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: -1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(94, 94, 94);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game-bord img {
+  max-width: 7rem;
+  margin: 0.5rem;
+  border: 0.1rem solid rgb(102, 102, 102);
+  box-shadow: 0.1rem 0.1rem 1rem rgb(199, 199, 199);
+  padding: 0.2rem;
+  border-radius: 0.5rem;
 }
