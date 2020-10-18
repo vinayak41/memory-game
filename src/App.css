@@ -55,3 +55,48 @@
   padding: 0.2rem;
   border-radius: 0.5rem;
 }
+
+@media screen and (max-width: 752px) {
+  .header {
+    font-size: 1.5rem;
+  }
+  .game-bord img {
+    max-width: 5rem;
+  }
+  .score-board {
+    max-width: 25rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .game-bord img {
+    max-width: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 551px) {
+  .game-bord img {
+    max-width: 4rem;
+  }
+  .score-board {
+    max-width: 20rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .game-bord img {
+    max-width: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .game-bord img {
+    max-width: 3rem;
+  }
+  .score-board {
+    max-width: 17rem;
+    font-size: 0.5rem;
+  }
+}
